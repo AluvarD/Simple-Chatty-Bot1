@@ -51,10 +51,10 @@ public class SimpleBot {
                 "4. To interrupt the execution of a program.");
         while (true) {
             int answer = scanner.nextInt();
-            System.out.println("Please, try again.");
             if (answer == 2) {
                 break;
             }
+            System.out.println("Please, try again.");
         }
     }
 
